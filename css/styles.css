@@ -72,21 +72,91 @@ header h1{
 }
 /*End Header*/
 
+/*Présentation*/
+body .page .presentation{
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+body .page .presentation h1{
+    text-decoration: underline;
+    font-size: 35px;
+}
+/*End Présentation*/
+
+/*Réalisations*/
+body .page .realisations{
+    margin: 20px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .page .realisations h1{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+body .page .realisations .cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body .page .realisations .cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body .page .realisations .cards .card img{
+    width: 350px;
+}
+
+body .page .realisations .cards .card h4{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body .page .realisations .cards .card p{
+    margin-top: -10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*End Réalisations*/
+
 /*Footer*/
 footer{
     background-color: #1a1a1a;
     padding: 20px 100px;
     color: #828282;
+    text-decoration: none;
 }
 
 footer .colonnes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #828282;
 }
 /*End Footer*/
 
-@media screen and (max-width: 640px){
+/*Mobile*/
+@media screen and (max-width: 740px){
     body .page{
         margin: 10px;
     }
@@ -107,3 +177,4 @@ footer .colonnes{
         padding: 100px;
     }
 }
+/*End Mobile*/
