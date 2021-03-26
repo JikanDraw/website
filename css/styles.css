@@ -241,12 +241,10 @@ footer a{
 
     body .page .tarifs img{
         width: 300px;
-        margin-left: 25px;
     }
 
     body .page .discord img{
-        width: 300px;
-        margin-left: 25px;
+        width: 200;;
     }
 }
 /*End Mobile*/
