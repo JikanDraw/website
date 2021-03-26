@@ -210,7 +210,8 @@ footer a{
     }
 
     body .page .tarifs img{
-        width: 800px;
+        width: 300px;
+        margin-left: 25px;
     }
 }
 /*End Mobile*/
