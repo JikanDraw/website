@@ -100,6 +100,7 @@ body .page .realisations{
 body .page .realisations h1{
     text-decoration: underline;
     font-size: 35px;
+    text-align: center;
 }
 
 body .page .realisations .cards{
@@ -175,6 +176,14 @@ footer a{
     header h1{
         font-size: 30px;
         padding: 100px;
+    }
+
+    .cards .card{
+        margin-left: 25px;
+    }
+
+    .cards .card img{
+        width: 300px;
     }
 }
 /*End Mobile*/
