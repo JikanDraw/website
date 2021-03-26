@@ -135,6 +135,29 @@ body .page .realisations .cards .card p{
 }
 /*End Réalisations*/
 
+/*Tarifs*/
+body .page .tarifs{
+    margin: 20px;
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+body .page .tarifs h1{
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+}
+
+body .page .tarifs p{
+    font-size: 15px;
+}
+
+body .page .tarifs img{
+    width: 1000px;
+}
+/*End Tarifs*/
+
 /*Footer*/
 footer{
     background-color: #1a1a1a;
@@ -184,6 +207,10 @@ footer a{
 
     .cards .card img{
         width: 300px;
+    }
+
+    body .page .tarifs img{
+        width: 800px;
     }
 }
 /*End Mobile*/
